@@ -1,5 +1,6 @@
 (use-modules (ice-9 format))
 (use-modules (ice-9 receive))
+(use-modules (ice-9 match))
 (import (rnrs))
 
 (define-syntax cons-stream
